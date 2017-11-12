@@ -1,0 +1,4 @@
+applications:
+- name: Bluehack-Exodia
+  random-route: true
+  memory: 128M
