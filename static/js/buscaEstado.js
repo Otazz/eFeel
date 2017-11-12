@@ -1,5 +1,6 @@
 jQuery(function($){
 	var est = [];
+	$("#ate").attr('disabled','disabled');
 	$("#pesquisar").submit(function(){
 		var rg = $("#regiao").val();
 		var jsonData = $.ajax({
@@ -55,8 +56,9 @@ jQuery(function($){
 					            '</div>'+
 					            '<div class="box-footer no-padding">'+
 					              '<ul class="nav nav-stacked">'+
-					                '<li><a href="#">Minha marca na mídia <span class="pull-right">'+icon+'</span></a></li>'+
-					                '<li><a href="#">Emplacamentos efetuados <span class="pull-right badge bg-green">'+Math.ceil(dd02[i])+'</span></a></li>'+
+					                "<li id='"+ddEst[i]+"'><a href='#' onclick='Marca(\""+ddEst[i]+"\");return false;'>Minha marca na mídia <span class='pull-right'>"+icon+"</span></a></li>"+
+							        '<li id="rsMidia_'+ddEst[i]+'" style="display:none;"><a href="#">Nível de satisfação <span class="pull-right badge bg-green">'+Math.ceil(dd01[i]*100)+' %</span></a></li>'+
+					                '<li><a href="#">Emplacamentos efetuados <span class="pull-right badge bg-green">'+Math.ceil(dd02[i])+' </span></a></li>'+
 					              '</ul>'+
 					            '</div>'+
 					          '</div>'+
@@ -67,4 +69,8 @@ jQuery(function($){
 		});
 		return false;
 	});
+	
+	Marca = function(uf){		
+		$("#rsMidia_"+uf).show('down');
+	}
 });
