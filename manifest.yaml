@@ -1,4 +1,4 @@
 applications:
-- name: Bluehack-Exodia
+- name: eFeel
   random-route: true
   memory: 128M
