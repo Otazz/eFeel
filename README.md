@@ -14,4 +14,4 @@ Lugar: #SãoPaulo
 Alan de Aguiar - aln.deaguiar@gmail.com, Cesar Seiji Maruyama - cesar_seiji@hotmail.com,
 Eberson Pergentino da Silva - ebersonpsilva@gmail.com, Otávio Rodrigues de Oliveira - orodrig@br.ibm.com, Regis Oliveira de Morais - rom@br.ibm.com
 
-Cada vez mais às pessoas estão conectadas em redes sociais. O projeto busca e classifica os comentarios positivos e negativos nas redes sociais, que, são influenciadores de toda cadeia que envolve toda venda e pos vendas do processo.
+Cada vez mais as pessoas estão conectadas em redes sociais. O projeto busca e classifica os comentarios positivos e negativos nas redes sociais, que, são influenciadores de toda cadeia que envolve toda venda e pos vendas do processo.
